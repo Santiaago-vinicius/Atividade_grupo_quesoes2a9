@@ -1,0 +1,2 @@
+Atividade 9 - Faça uma função que verifique se 
+a árvore binária é COMPLETA ou INCOMPLETA.
