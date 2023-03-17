@@ -68,9 +68,9 @@ bool ehArvoreBinariaCheia(Arv *no){
 int calcularAlturaMinima(int totalNos){
 	int alturaMinima = 0;
 
-	if(totalNos % 2 != 0){
+	/*if(totalNos % 2 != 0){
 		totalNos++;
-	}
+	}*/
 
 	while(totalNos != 0){
 		totalNos = totalNos / 2;
@@ -94,6 +94,6 @@ bool ehArvoreCompleta(Arv *no){
 	        
 main(){
 	Arv *arv = arvore(arvore(arvore(NULL, 'd', NULL), 'b', arvore(NULL, 'e', NULL)) , 'a', arvore(NULL, 'c', arvore(NULL, 'f', NULL)));
-	cout << "A arvore estah cheia? ";
+	cout << "A arvore estah completa? ";
 	cout << std::boolalpha << ehArvoreBinariaCheia(arv) << endl;
 }
