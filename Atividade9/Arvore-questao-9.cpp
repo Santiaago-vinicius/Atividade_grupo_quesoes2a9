@@ -68,9 +68,9 @@ bool ehArvoreBinariaCheia(Arv *no){
 int calcularAlturaMinima(int totalNos){
 	int alturaMinima = 0;
 
-	if(totalNos % 2 != 0){
+	/*if(totalNos % 2 != 0){
 		totalNos++;
-	}
+	}*/
 
 	while(totalNos != 0){
 		totalNos = totalNos / 2;
